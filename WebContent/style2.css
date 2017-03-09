@@ -1,0 +1,247 @@
+body
+{
+	background-color: #303030;
+	color: #ffffff;
+	font-family:'Lato',sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle
+{
+	clear: both;
+	width: 960px;
+	margin: 20px;
+}
+
+
+.wyszukiwarka
+{
+	background-color:#330066;
+	width: 960px;
+	height: 120px;
+	margin: 20px;
+	padding: 10px;
+	
+
+}
+
+.square
+{
+	float: left;	
+	width: 50%;
+}
+
+.back
+{
+
+	width: 100px;
+	height: 50px;
+	background-color: #303030;
+	text-align: center;
+	float: right;	
+	margin-bottom: 10px;
+	
+
+}
+
+.strony
+{
+	background-color:#303030;
+	width: 960px;
+	height: 30px;
+	margin: 20px;
+	padding: 10px;
+	
+
+}
+
+#logo
+{
+	font-family:'Josefin-Sans', sans-serif;
+	font-size: 70px;
+	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#naz_szukaj
+{
+	font-family:'Josefin-Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	background-color:#330066;
+	width: 960px;
+
+}
+
+
+.tile1
+{
+	margin: 10px;
+	width: 420px;
+	height: 244px;
+	background-color: #3095d3;
+	text-align: center;
+	font-size: 60px;
+	padding: 30px;
+}
+.tile1:hover
+{
+	background-color: #2083c2;	
+}
+
+
+.tile2
+{
+	margin: 10px;
+	width: 420px;
+	height: 244px;
+	background-color: #93c748;
+	text-align: center;
+	font-size: 60px;
+	padding: 30px;
+}
+.tile2:hover
+{
+	background-color: #82b637;	
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display:block;
+	width: 420px;
+	height: 244px;
+}
+
+a.logolink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.backlink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.nazlink
+{
+	text-decoration: none;
+}
+.back:hover
+{
+	background-color: #202020;	
+}
+
+#naz1:hover
+{
+	background-color: #202020;	
+}
+#naz2:hover
+{
+	background-color: #202020;	
+}
+#naz3:hover
+{
+	background-color: #202020;	
+}
+#naz4:hover
+{
+	background-color: #202020;	
+}
+#naz5:hover
+{
+	background-color: #202020;	
+}
+#naz6:hover
+{
+	background-color: #202020;	
+}
+#naz7:hover
+{
+	background-color: #202020;	
+}
+#naz8:hover
+{
+	background-color: #202020;	
+}
+#naz9:hover
+{
+	background-color: #202020;	
+}
+#naz10:hover
+{
+	background-color: #202020;	
+}
+
+   /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+       wygląd wszystkich elementów - a - znajdujących się w elemencie - ol 
+      ol a {
+
+		text-decoration: none;
+		display:block;
+        color:#FFF;
+        padding: 5px;
+	
+      }
+	    ol p {
+        display:block;
+        text-decoration: none;
+        color:#FFF;
+        padding: 5px;
+		
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:#202020;
+		text-decoration: none;
+		display:block;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej */
+      ol > li > ul > li > a {
+        border-top:1px solid #303030;
+		text-decoration: none;
+		display:block;
+      }
+	  
+	  #clickme
+	  {
+		  width: 10em;  height: 1,5em;
+	  }
+	  
+	  #fulltext
+	  {
+		  width: 40em;  height: 1,5em;
+	  }
+	  
+		#fulltext1
+		{
+			width: 20em;  height: 1,5em;
+		}
+
+	#clickme:hover
+	  {
+		  background-color:#BBB;
+	  }
+
+
+
+
+
+
